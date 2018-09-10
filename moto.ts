@@ -12,11 +12,11 @@ export class Moto extends Veiculo implements Motor{
 
     }
     
-    acelerar() {
+    acelerar(){
         console.log("Acelerouu");
     }
     
-    desacelerar() {
+    desacelerar(){
         console.log("Desacelerouu");
     }
 

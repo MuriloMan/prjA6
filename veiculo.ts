@@ -1,4 +1,18 @@
 //exemplo1
+export class Veiculo {
+
+    constructor( 
+        public pneu:number, 
+        public cor:string,
+        public marca: string,
+        public motorista: string
+     ){}
+    
+     public alterarCorVeiculo(){
+         console.log("cor"+ this.cor);
+     }
+ }
+/*
 export class Veiculo2 {
 
     // private pneu: number;
@@ -24,23 +38,5 @@ export class Veiculo2 {
             console.log("cor"+ this.cor);
         }
 }
-
+*/
 //Exemplo 2
-export class Veiculo {
-
-   constructor( 
-       public pneu:number, 
-       public cor:string,
-       public marca: string,
-       public motorista: string
-    ) 
-    {
-
-    }
-   
-    public alterarCorVeiculo(){
-        console.log("cor"+ this.cor);
-    }
-
-    
-}

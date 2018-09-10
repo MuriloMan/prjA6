@@ -32,6 +32,4 @@ export class Carro extends Veiculo implements Motor{
         console.log("Cor do veiculo" + this.cor);
 
     }
-
-
 }
