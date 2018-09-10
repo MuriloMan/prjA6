@@ -1,0 +1,13 @@
+"use strict";
+exports.__esModule = true;
+var carro_1 = require("./carro");
+var moto_1 = require("./moto");
+var fusca = new carro_1.Carro(1, "mostarda", "audi", "Murilo Man", "v8", 5, 5);
+fusca.acelerar();
+fusca.desacelerar();
+fusca.alterarCorVeiculo();
+var motinha = new moto_1.Moto("Murilo", "Red");
+motinha.acelerar();
+motinha.desacelerar();
+console.log(motinha.obterMotorista());
+console.log(motinha.obterMarca());
